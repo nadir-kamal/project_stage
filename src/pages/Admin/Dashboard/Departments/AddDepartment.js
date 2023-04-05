@@ -1,0 +1,88 @@
+
+import './department.css';
+
+function AddDepartment() {
+  return (
+
+  <main id="main" className="department main m-4">
+
+    <section className="section profile">
+      <div className="row">
+       
+        <div className="col-xl-8 mt-4" style={{margin:'auto'}}>
+          <div className="card mb-5">
+            <div className="card-body pt-3">
+             
+                  <form className='py-2'>
+                  
+                    <div className="row mb-3">
+                        <label
+                            htmlFor="name"
+                            className="col-md-4 col-lg-3 col-form-label"
+                        >
+                            department name
+                        </label>
+                        <div className="col-md-8 col-lg-9">
+                            <input
+                            name="name"
+                            type="text"
+                            className="form-control"
+                            id="name"
+                            />
+                        </div>
+                    </div>
+
+                    <div className="row mb-3">
+                        <label
+                            htmlFor="responsable"
+                            className="col-md-4 col-lg-3 col-form-label"
+                        >
+                            responsable
+                        </label>
+                        <div className="col-md-8 col-lg-9">
+                            <input
+                            name="responsable"
+                            type="text"
+                            className="form-control"
+                            id="responsable"
+                            />
+                        </div>
+                    </div>
+
+                    <div className="row mb-3">
+                        <label
+                            htmlFor="employees"
+                            className="col-md-4 col-lg-3 col-form-label"
+                        >
+                            employees
+                        </label>
+                        <div className="col-md-8 col-lg-9">
+                            <input
+                            name="employees"
+                            type="text"
+                            className="form-control"
+                            id="employees"
+                            />
+                        </div>
+                    </div>
+                  
+                    <div className="text-center">
+                      <button type="submit" className="btn btn-primary rounded-pill my-3">
+                        Add department
+                      </button>
+                    </div>
+
+                  </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  )
+}
+
+export default AddDepartment

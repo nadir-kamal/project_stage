@@ -1,0 +1,18 @@
+.hero-img{
+    width: 700px;
+}
+.btn-purple{
+    background-color: #6f42c1;
+    border: #6f42c1 solid 1px;
+}
+.btn-purple:hover{
+    background-color: transparent;
+    color: #6f42c1;
+    border: #6f42c1 solid 1px;
+}
+.title-hero{
+    color:#6f42c1;
+}
+.title-hero:hover{
+    color: #8852ec;
+}
