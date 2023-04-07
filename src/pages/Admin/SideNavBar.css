@@ -1,15 +1,18 @@
 .side-bar{
-    display: block;
-    height:100vh;
-    width: 15em;
-    z-index:100;
-    position:fixed;
-    top:0px;
-    left: 0px;
+    height: 0%;
+    width: 17em;
 }
-.logo-text{
-    color:#6f42c1;
-}
-.side-bar-items li {
 
+.navlink{
+    color: #444444;
+}   
+
+.act :hover{
+    color: #6f42c1;
 }
+
+.act :focus{
+    color: white;
+    background-image: linear-gradient(to bottom right, #b49ae4, #6f42c1);
+}
+

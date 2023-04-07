@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hi() {
   return (
-    <div className="container my-5">
+    <div className="container m-0 p-0">
       <div className="position-relative p-2 text-center text-muted bg-body border border-dashed rounded-5">
         <button
           type="button"

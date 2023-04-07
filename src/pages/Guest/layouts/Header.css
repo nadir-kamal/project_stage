@@ -1,5 +1,7 @@
 header{
     background-color: #6f42c1;
+    height: 5em;
+    z-index: 100;
 }
 .img-logo{
     width: 3em;

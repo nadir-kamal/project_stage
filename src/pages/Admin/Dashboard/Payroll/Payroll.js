@@ -2,8 +2,8 @@ import React from 'react'
 
 function Payroll() {
   return (
-    <div className="container my-5">
-      <div className="position-relative p-2 text-center text-muted bg-body border border-dashed rounded-5">
+    <div className="container m-0 p-0">
+      <div className="position-relative p-2 text-center text-muted bg-body border border-dashed rounded-4">
         <button
           type="button"
           className="position-absolute top-0 end-0 p-3 m-3 btn-close bg-secondary bg-opacity-10 rounded-pill"

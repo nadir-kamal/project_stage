@@ -115,11 +115,11 @@ function Employees() {
 
 
   return (
-    <section className="container section m-4">
+    <section className="container section m-0 p-0">
 
       <div className="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-3 mb-3">
           <div className="col">
-            <div className="card shadow-sm">
+            <div className="card shadow rounded-4 gradiant-2">
               <div className='card-body d-flex justify-content-between my-1'>
                   <h4 className="card-title ms-5">Employees</h4>
                   <Link to="/admin/employees/add">
@@ -133,13 +133,13 @@ function Employees() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="card mb-5">
-              <div className="card-body">
-                <table className="table datatable table-hover">
+        <div className="row m-0 p-0">
+          <div className="col-lg-12 m-0 p-0">
+            <div className="card shadow rounded-4 gradiant-2 m-0 p-0">
+              <div className="card-body m-3">
+                <table className="table datatable table-hover m-0 p-0">
                   <thead>
-                    <tr className='text-primary'>
+                    <tr className='text-purple'>
                       <th scope="col">ID</th>
                       <th scope="col">Name</th>
                       <th scope="col">department</th>

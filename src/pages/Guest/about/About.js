@@ -2,9 +2,13 @@
 
 function About() {
   return (
-    <img src="img/Hero.jpg"
-      style={{ margin:"50px 10px 50px 100px", width:"70%"}}
-    />
+    <div className="d-flex justify-content-center">
+      <img src="img/Hero.jpg"
+      className="about-img "
+      width="50%"
+      />
+    </div>
+
   )
 }
 

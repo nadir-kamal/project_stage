@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import './HeaderAdmin.css';
 import Profile from '../Admin/Dashboard/Employees/Profile.jpg';
 
 function HeaderAdmin() {
   return (
-    <div className="header-admin d-inline-flex justify-content-around">
+    <div className="header-admin container-fluid d-inline-flex justify-content-between px-5 shadow m-0 rounded-4 ">
 
       <div>
         <h5 className="my-3 ms-3">employees management system</h5>
@@ -12,7 +12,7 @@ function HeaderAdmin() {
   
       <div className="dropdown py-3">
         <a
-          href="#"
+          href="https://github.com"
           className="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
           id="dropdownUser2"
           data-bs-toggle="dropdown"
@@ -33,12 +33,12 @@ function HeaderAdmin() {
         >
 
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="https://github.com">
               profile
             </a>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="https://github.com">
               setings
             </a>
           </li>
@@ -46,7 +46,7 @@ function HeaderAdmin() {
             <hr className="dropdown-divider" />
           </li>
           <li>
-            <a className="dropdown-item" href="#">
+            <a className="dropdown-item" href="https://github.com">
               Sign out
             </a>
           </li>
@@ -58,4 +58,4 @@ function HeaderAdmin() {
   )
 }
 
-export default HeaderAdmin
+export default HeaderAdmin;

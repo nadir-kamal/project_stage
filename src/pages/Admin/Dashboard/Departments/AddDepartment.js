@@ -1,16 +1,14 @@
-
+import { Link } from 'react-router-dom';
 import './department.css';
 
 function AddDepartment() {
   return (
 
-  <main id="main" className="department main m-4">
-
-    <section className="section profile">
-      <div className="row">
+    <section className=" m-0 p-0">
+      <div className="row m-0 p-0">
        
-        <div className="col-xl-8 mt-4" style={{margin:'auto'}}>
-          <div className="card mb-5">
+        <div className="col-xl-8  m-0 p-0">
+          <div className="card shadow-lg mb-5 rounded-4 gradiant-2">
             <div className="card-body pt-3">
              
                   <form className='py-2'>
@@ -67,11 +65,19 @@ function AddDepartment() {
                     </div>
                   
                     <div className="text-center">
-                      <button type="submit" className="btn btn-primary rounded-pill my-3">
-                        Add department
-                      </button>
+                      <Link to='/admin/departments'>
+                        <button type="submit" className="btn btn-outline-primary rounded-pill my-2">
+                          <i className='bi bi-plus-circle me-2'/>
+                          create department
+                        </button>
+                      </Link>
+                      <Link to='/admin/departments'>
+                        <button type="submit" className="btn btn-outline-danger rounded-pill my-3 mx-2">
+                          <i className='bi bi-x-square me-2'/>
+                          Cancel
+                        </button>
+                      </Link>
                     </div>
-
                   </form>
 
             </div>
@@ -79,8 +85,6 @@ function AddDepartment() {
         </div>
       </div>
     </section>
-  </main>
-
 
   )
 }

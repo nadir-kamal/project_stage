@@ -3,17 +3,17 @@ import './Login.css'
 
 function Login() {
   return (
-    <main>
+
       <div className="container">
-        <section className="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+        <section className="min-vh-100 d-flex flex-column align-items-center justify-content-center">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
-                <div className="d-flex justify-content-center py-4">
+                <div className="d-flex justify-content-center py-2">
                   <Link className="logo d-flex align-items-center w-auto text-decoration-none">
 
                     <img src="img/logo-purple.png" alt="employees" width={40}/>
-                    <h3 className="text-black ms-1" >employees</h3>
+                    <h3 className="text-white ms-1" >employees</h3>
 
                   </Link>
                 </div>
@@ -96,7 +96,7 @@ function Login() {
           </div>
         </section>
       </div>
-    </main>
+
 
   )
 }

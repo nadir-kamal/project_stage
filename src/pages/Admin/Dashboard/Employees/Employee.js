@@ -3,13 +3,12 @@ import './Employee.css';
 
 function Employee() {
   return (
-    <>
-  <main id="main" className="employee main m-4">
+  <main id="main" className="employee">
 
     <section className="section profile">
       <div className="row">
         <div className="col-xl-4">
-          <div className="card">
+          <div className="card shadow rounded-4 gradiant-2 m-0 p-0">
             <div className="card-body profile-card pt-4 d-flex flex-column align-items-center">
               <img
                 src={Profile}
@@ -20,24 +19,24 @@ function Employee() {
               <h2>Abdelilah Kamal</h2>
               <h3>Web Designer</h3>
               <div className="social-links mt-2">
-                <a href="/" className="twitter">
-                  <i className="bi bi-twitter" />
+                <a href="https://twiter.com" className="mx-1">
+                  <i className="bi bi-twitter"  style={{color:"#55acee", fontSize:"1.5em"}}/>
                 </a>&nbsp; &nbsp;
-                <a href="/" className="facebook">
-                  <i className="bi bi-facebook" />
+                <a href="https://facebook.com" className="mx-1">
+                  <i className="bi bi-facebook"  style={{color:"#3b5998", fontSize:"1.5em"}}/>
                 </a>&nbsp; &nbsp;
-                <a href="/" className="instagram">
-                  <i className="bi bi-instagram" />
+                <a href="https://instagram.com" className="mx-1">
+                  <i className="bi bi-instagram"  style={{color:"#ac2bac", fontSize:"1.5em"}}/>
                 </a>&nbsp; &nbsp;
-                <a href="/" className="linkedin">
-                  <i className="bi bi-linkedin" />
+                <a href="https://linkedin.com" className="mx-1">
+                  <i className="bi bi-linkedin"  style={{color:"#0082ca", fontSize:"1.5em"}}/>
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-xl-8">
-          <div className="card mb-5">
+        <div className="col-xl-8 m-0">
+          <div className="card shadow rounded-4 gradiant-2 m-0 p-0">
             <div className="card-body pt-3">
               {/* Bordered Tabs */}
               <ul className="nav nav-tabs nav-tabs-bordered">
@@ -96,7 +95,7 @@ function Employee() {
                     <div className="col-lg-9 col-md-8">Abdelilah Kamal</div>
                   </div>
                   <div className="row">
-                    <div className="col-lg-3 col-md-4 label">Company</div>
+                    <div className="col-lg-3 col-md-4 label">Department</div>
                     <div className="col-lg-9 col-md-8">
                       Lueilwitz, Wisoky and Leuschke
                     </div>
@@ -146,14 +145,14 @@ function Employee() {
                         <div className="pt-2">
                           <a
                             href="#"
-                            className="btn btn-primary btn-sm"
+                            className="btn btn-outline-primary btn-sm"
                             title="Upload new profile image"
                           >
                             <i className="bi bi-upload" />
                           </a>&nbsp; &nbsp;
                           <a
                             href="#"
-                            className="btn btn-danger btn-sm"
+                            className="btn btn-outline-danger btn-sm"
                             title="Remove my profile image"
                           >
                             <i className="bi bi-trash" />
@@ -202,7 +201,7 @@ function Employee() {
                         htmlFor="company"
                         className="col-md-4 col-lg-3 col-form-label"
                       >
-                        Company
+                      Department
                       </label>
                       <div className="col-md-8 col-lg-9">
                         <input
@@ -368,7 +367,8 @@ function Employee() {
                       </div>
                     </div>
                     <div className="text-center">
-                      <button type="submit" className="btn btn-primary rounded-pill">
+                      <button type="submit" className="btn btn-outline-primary rounded-pill">
+                          <i className='bi bi-pencil-square me-2'/>
                         Save Changes
                       </button>
                     </div>
@@ -445,7 +445,8 @@ function Employee() {
                       </div>
                     </div>
                     <div className="text-center">
-                      <button type="submit" className="btn btn-primary rounded-pill">
+                      <button type="submit" className="btn btn-outline-primary rounded-pill">
+                        <i className='bi bi-pencil-square me-2'/>
                         Save Changes
                       </button>
                     </div>
@@ -507,7 +508,8 @@ function Employee() {
                       </div>
                     </div>
                     <div className="text-center">
-                      <button type="submit" className="btn btn-primary rounded-pill">
+                      <button type="submit" className="btn btn-outline-primary rounded-pill">
+                        <i className='bi bi-pencil-square me-2'/>
                         Change Password
                       </button>
                     </div>
@@ -522,8 +524,6 @@ function Employee() {
       </div>
     </section>
   </main>
-  {/* End #main */}
-</>
 
   )
 }

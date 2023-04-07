@@ -1,18 +1,37 @@
 .hero-img{
     width: 700px;
 }
-.btn-purple{
-    background-color: #6f42c1;
-    border: #6f42c1 solid 1px;
+
+
+.about-img{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
 }
-.btn-purple:hover{
-    background-color: transparent;
-    color: #6f42c1;
-    border: #6f42c1 solid 1px;
+
+
+.gradiant{
+    background-color: #4158D0;
+    background-image: linear-gradient(40deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
-.title-hero{
-    color:#6f42c1;
+
+
+.gradiant-2{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
-.title-hero:hover{
-    color: #8852ec;
+
+
+
+.btn-gradiant{
+    background-image: linear-gradient( 135deg, #F6CEEC 10%, #aa51a3 100%);
+
+}
+
+
+.text-gradiant{
+    font-size: 70px;
+    background: -webkit-linear-gradient(#ffdaf4, #fd8fff, #ffc9fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

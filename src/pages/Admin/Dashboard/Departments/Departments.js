@@ -71,11 +71,11 @@ function Departments() {
 
   return (
 
-    <div className="container m-4">
+    <div className="container m-0 p-0">
 
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-3 mb-3">
           <div className="col">
-            <div className="card shadow-sm">
+            <div className="card shadow rounded-4 gradiant-2">
               <div className='card-body d-flex justify-content-between my-1'>
                   <h4 className="card-title ms-5">Departments</h4>
                   <Link to="/admin/departments/add">
@@ -89,7 +89,7 @@ function Departments() {
           </div>
         </div>
 
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pb-5">
           {list}
         </div>
 

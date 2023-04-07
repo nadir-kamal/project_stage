@@ -1,16 +1,17 @@
 
+import { Link } from 'react-router-dom';
 import './Employee.css';
 
 function AddEmployee() {
   return (
 
-  <main id="main" className="employee main m-4">
+  <main id="main" className="employee m-0 p-0">
 
-    <section className="section profile">
+    <section className=" m-0 p-0">
       <div className="row">
        
         <div className="col-xl-8">
-          <div className="card mb-5">
+          <div className="card shadow rounded-4 m-0 p-0 gradiant-2">
             <div className="card-body pt-3">
              
                   <form >
@@ -30,14 +31,14 @@ function AddEmployee() {
                         <div className="pt-2">
                           <a
                             href="#"
-                            className="btn btn-primary btn-sm"
+                            className="btn btn-outline-primary btn-sm"
                             title="Upload new profile image"
                           >
                             <i className="bi bi-upload" />
                           </a>&nbsp; &nbsp;
                           <a
                             href="#"
-                            className="btn btn-danger btn-sm"
+                            className="btn btn-outline-danger btn-sm"
                             title="Remove my profile image"
                           >
                             <i className="bi bi-trash" />
@@ -238,9 +239,13 @@ function AddEmployee() {
                       </div>
                     </div>
                     <div className="text-center">
-                      <button type="submit" className="btn btn-primary rounded-pill">
+                    <Link to='/admin/employees'>        
+                      <button type="submit" className="btn btn-outline-primary rounded-pill">
+                        <i className='bi bi-plus-circle me-2'/>
                         Add employee
                       </button>
+                    </Link>
+              
                     </div>
                   </form>
 
